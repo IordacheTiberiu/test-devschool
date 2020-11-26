@@ -1,0 +1,143 @@
+body{margin:0;
+font-family:candara;
+font-size:17px;
+background-color:#191919;
+}
+
+.logo{
+	width:85px;
+	height:85px;
+}
+
+.navigation{
+	z-index:3;
+	position:fixed;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	margin:auto;
+	width:100%;	
+	background-color:rgba(0,0,0,0.8)}
+	
+.navigation-list{
+	display:flex;
+	list-style:none;
+	justify-content:center;
+	text-align:center;
+	margin:0;
+	width:100%;
+	padding:0px 25vw 0px 25vw;
+	}
+	
+.navigation-element{
+	float:left;
+	margin:auto 20px;
+	}
+	
+.navigation-logo{
+	display:flex;
+	margin:auto;
+	flex:1
+	}
+	
+a{
+	text-decoration:none;
+	color:rgba(255,255,255,0.85);
+	}
+	
+.homePhoto{
+	position:absolute;
+	height:100vh;
+	width:100vw;
+	object-fit:cover;
+	
+}
+
+.imgFade{
+	position:absolute;
+	bottom:-30px;
+	width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #191919
+    );
+}
+
+.pageTitle{
+	position: absolute;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 2.5vw;
+    text-align: center;
+    top: 25vh;
+    align-content: center;
+    margin: 0px 0px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+ .main{
+	 position:relative;
+ }
+ 
+ .article{
+	justify-content:center;
+	text-align:center;
+	width:300px;
+	border-radius: 8px;
+	background-color:rgba(102, 179, 255,0.2);
+ }
+ 
+section{
+	 text-align: -webkit-center;
+	 justify-content:center;
+	 display:flex;
+	 flex-wrap:wrap;
+	 
+ }
+		
+.firstP{
+	width:50%;
+	}
+
+article{
+	margin:10px 10px;
+
+}
+	
+p{font-size:17px;
+}
+
+h2{font-size:22px;}
+h3{font-size:18px;}
+
+.pFooter{
+	padding-top:50px;
+	font-size:18px;
+}
+.Footer{
+	background-color:black;
+	width:100vw;
+	height:120px;
+}
+.articleDest{
+	justify-content:center;
+	text-align:center;
+	width:300px;
+	border-radius: 8px;
+	background-color:rgba(102, 179, 255,0.2);
+}
+
+.imageDest{
+	width:250px;
+	height:180px;
+	object-fit:cover;
+	margin-top:10px;
+	border-radius:200px;
+}
